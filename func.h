@@ -1,1 +1,11 @@
 #define func_h
+void Soma_de_Elementos_em_um_Array();
+void Manipulacao_de_strings();
+void Cadastro_de_produtos_usando_struct();
+void operacoes_matriciais();
+void manipulacao_de_ponteiros_em_string();
+void leitura_escrita_de_registros_em_arquivos_binarios();
+void Ordenacao_de_structs();
+void manipulacao_de_ponteiros();
+void calculo_de_estatisticas();
+void manipulacao_de_tempo();
