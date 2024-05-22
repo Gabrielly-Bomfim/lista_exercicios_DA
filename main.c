@@ -18,27 +18,27 @@ int main(void) {
   scanf("%d", &escolha);
 
   if(escolha == 1){
-      printf("soma\n");
-    }else if(escolha == 2){
-     // Manipulacao_de_strings();
-    }else if(escolha == 3){
-      //Cadastro_de_produtos_usando_struct();
-    }else if(escolha ==4){
-      //operacoes_matriciais();
-    }else if(escolha ==5){
-      //manipulacao_de_ponteiros_em_string();
-    }else if(escolha ==6){
-     // leitura_escrita_de_registros_em_arquivos_binarios();
+    Soma_de_Elementos_em_um_Array();
 
-    }else if (escolha == 7){
-     // Ordenacao_de_structs();
-    }else if (escolha == 8){
-    //  manipulacao_de_ponteiros();
-    }else if(escolha == 9){
-    //  calculo_de_estatisticas();
-    }else if(escolha == 10){
-    //  manipulacao_de_tempo();
-    }
+  }else if(escolha == 2){
+    Manipulacao_de_strings();
+  }else if(escolha == 3){
+    Cadastro_de_produtos_usando_struct();
+  }else if(escolha ==4){
+    operacoes_matriciais();
+  }else if(escolha ==5){
+    manipulacao_de_ponteiros_em_string();
+  }else if(escolha ==6){
+    leitura_escrita_de_registros_em_arquivos_binarios();
 
+  }else if (escolha == 7){
+    Ordenacao_de_structs();
+  }else if (escolha == 8){
+    manipulacao_de_ponteiros();
+  }else if(escolha == 9){
+    calculo_de_estatisticas();
+  }else if(escolha == 10){
+    manipulacao_de_tempo();
   }
 
+}
